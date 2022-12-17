@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <!-- ========== font awesome =========== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+
+
+      <!-- ======== jquery kaj-scroll =======-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+      <!-- ======= animate ====== -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"/>
+     
+    
+     
+
+    <!-- =========== bootstrap 5 css ========== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- animate link -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- ======== custom css ======== -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="loading"></div>
+
+
+
+    <!-- ============= main-part start ============ -->
+    <div class="main-part">
+        <!--========= header part start ========== -->
+        <div class="header-part section">
+            <a href="" class="logo"><span class="logo1">k</span><span class="logo2">rish</span><span class="logo3 text-warning">li<span class="logo4">o</span></span></a>
+            <div class="navbar">
+                <a href="#" class="active">home</a>
+                <a href="#about">about</a>
+                <a href="#portfolio">portfolio</a>
+                <a href="#service">service</a>
+                <a href="#contact">contact</a>
+            </div>
+
+            <div class="icons">
+                <div class="links fas fa-bars" id="menu-btn"></div>
+                <div class="links fas fa-search" id="search-btn"></div>
+                <div class="links fas fa-code" id="code-btn"></div>
+                <div class="links fas fa-user" id="login-btn"></div>
+            </div>
+
+
+            <form action="" class="search-form">
+              <input type="text" placeholder="search here...." id="search-box">
+              <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="code-form">
+                <div class="service">
+                   <div class="row">
+                    <div class="col-lg-6 outer">
+                         <div class="col-lg-6 p-5 box">
+                            <img src="images/krishna.1.png" alt="">
+                         </div>
+                    </div>
+                    <div class="col-lg-6 text-center side p-5">
+                        <h3 class="text-uppercase text-warning">Jen Krish</h3>
+                        <p class="small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo aperiam ipsam reiciendis beatae excepturi est?</p>
+                        <a href="#" class="btn service-btn">learn-more</a>
+                    </div>
+                   </div>
+                </div>
+                <div class="service">
+                  <div class="row">
+                   <div class="col-lg-6 col-sm-12 outer">
+                        <div class="col-lg-6 p-5 box">
+                           <img src="images/user-1.png" alt="">
+                        </div>
+                   </div>
+                   <div class="col-lg-6 col-sm-12 text-center side p-5">
+                       <h3 class="text-uppercase text-warning">Jen Krish</h3>
+                       <p class="small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo aperiam ipsam reiciendis beatae excepturi est?</p>
+                       <a href="#" class="btn service-btn">learn-more</a>
+                   </div>
+                  </div>
+               </div>
+            </div>
+
+              <form action="" class="login-form">
+                  <h3 class="text-center pt-4 pb-3 fs-4 text-warning text-uppercase">login now</h3>
+                  <input type="text" placeholder="type your name" required>
+                  <input type="email" placeholder="type your email" required>
+                  <input type="password" placeholder="type your password" required>
+                  <p class="pt-4">forget <span>click here</span></p>
+                  <p>create a new account <span>create here</span></p>
+                  <button class="btn mb-4">send</button>
+              </form>
+        </div>
+        <!--========= header part ends ========== -->
+
+        <!--========= banner part start ========== -->
+        <div class="banner-part section">
+            <div class="banner">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner text-center">
+                              <div class="carousel-item active">
+                                <img src="images/krishna.1.png" alt="">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/banner3.png" alt="">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/banner4.png" alt="">
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 banner-text">
+                        <h2 class="h2">Hello! I'm <span class="text-warning">Krishna chandra</span>  and</h2>
+                        <h2>I'm <span class="typping text-danger">Wb designer</span></h2>
+                        <p class="small text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est rerum consectetur recusandae aperiam, aspernatur ullam non assumenda voluptas sequi fugiat, ipsum iusto quibusdam dignissimos eveniet odit nostrum dolor! Numquam, similique.
+                          
+                        <a href="" data-bs-toggle="collapse" class="text-danger" data-bs-target="#more"> Learn more <i class="fas fa-arrow-down text-warning fa-2x"></i><a class="spinner-grow fs-4 bg-white"></a> ......</a>
+                        
+                        <p class="collapse text-white small" id="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci temporibus natus, quidem in laudantium ut ad labore error harum rem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse iure voluptas atque. Deserunt repellat possimus nam rerum laborum, nostrum similique?</p>
+                      </p>
+
+                    
+                        <div class="button">
+                          <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#myModal">learn-more</a>
+                          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModal">
+                            sign up
+                          </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+          <!-- ============= learn more part start =========== -->
+     
+          <!-- ============= learn more part ends =========== -->
+
+
+            <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <button type="button" class="btn-close p-4 roted" data-bs-dismiss="modal"></button>
+                </div>
+
+                  <div class="main">
+                      <div class="box">
+                          <a class="btn" href="#">login</a>
+                          <a class="btn" href="#">sign up</a>
+                          <form action="">
+                            <div class="form-box">
+                              <label for="" class="form-lable pt-3">username</label>
+                              <input type="username" placeholder="login" class="d-block" required>
+                            </div>
+                            <div class="form-box">
+                              <label for="" class="form-lable pt-3">Password</label>
+                              <input type="password" placeholder="*******" class="d-block" required>
+                            </div>
+                            <div class="send-box">
+                              <div class="mb-3 form-check mt-5">
+                                <input type="checkbox" class="form-check-input check mt-3" id="exampleCheck1">
+                                <label class="form-check-label text-warning" for="exampleCheck1">Remember me</label>
+                                <button type="submit" class="btn active"><a href="#">log in</a></button>
+                              </div>
+                              <div class="form-check">
+                              
+                              </div>
+                            </div>
+                            <p class="text-center pt-3 text-success"><a class="tag" href="#">Lost your password?</a></p>
+                        </form>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--========= banner part ends ========== -->
+
+
+
+        <!--========= about part start ========== -->
+        <div class=" about-part section" id="about">
+            <h2 class="wow bounceInRight header" data-wow-duration="3s"><span>About Me</span></h2>
+            <div class="row">
+                <div class="simple">
+                  <h3>I'm <span>Krishna</span> Chandra Sinha and <span>Web designer</span></h3>
+                  <p class="small text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et perspiciatis minus porro, maxime mollitia fugiat quia consequuntur nihil rem rerum aliquid dicta obcaecati laudantium numquam alias aut facere natus inventore minima consectetur quod eligendi iusto? Quam quia nam officiis vitae et laboriosam quos. Et, earum rem? Rem sit excepturi recusandae.</p>
+                </div>
+            </div>
+            <div class="row mt-5 mb-4 outter">
+              <div class="wow bounceInLeft col-lg-4 col-sm-12 p-3 after" data-wow-duration="3s">
+                <h3 class="skill text-danger">MYSELF</h3>
+                <table class="table">
+                  <tbody class="border">
+                      <tr>
+                        <th class="text-white text-uppercase">Name</th>
+                        <td class="small">: Krishna Chandra Sinha</td>
+                      </tr>
+                      <tr>
+                        <th class="text-white text-uppercase">Birthday</th>
+                        <td class="small">: 31-1-2003</td>
+                      </tr>
+
+                      <tr>
+                        <th class="text-white text-uppercase">Age</th>
+                        <td class="small">: 19</td>
+                      </tr>
+                      <tr>
+                        <th class="text-white text-uppercase">Village</th>
+                        <td class="small">: Atwari Panchagarch</td>
+                      </tr>
+                      <tr>
+                        <th class="text-white text-uppercase">Email</th>
+                        <td class="small">:krishna.web.designer@gmail.com</td>
+                      </tr>
+                      <tr>
+                        <th class="text-white text-uppercase">Color</th>
+                        <td class="small"> :Yellow</td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="wow rotateInDownLeft col-lg-4 col-sm-12 p-3 after" data-wow-duration="4s">
+                <h3 class="skill edu text-danger">EDUCATION</h3>
+                <table class="table">
+                  <tbody class="border">
+                      <tr>
+                        <th class="text-white text-uppercase">Website</th>
+                        <td class="small">: www.krishna.tiktiok</td>
+                      </tr>
+                      <tr>
+                        <th class="text-white text-uppercase">facebook</th>
+                        <td class="small">: https://www.facebook.com/</td>
+                      </tr>
+                      <tr>
+                        <th class="text-white text-uppercase">Youbube</th>
+                        <td class="small">: https://www.youtube.com/</td>
+                      </tr>
+                      <tr>
+                        <th class="text-white text-uppercase">Hobby</th>
+                        <td class="small"> :Marketing</td>
+                      </tr>
+                      <tr>
+                        <th class="text-white text-uppercase">Color</th>
+                        <td class="small"> :Yellow</td>
+                      </tr>
+                      <tr>
+                        <th class="text-white text-uppercase">Color</th>
+                        <td class="small"> :Yellow</td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>
+
+                <div class="wow bounceInRight col-lg-4 col-sm-12 after" data-wow-duration="3s">
+                    <h3 class="mt-3 skill my text-danger">MY SKILL</h3>
+                    <div class="box mt-3">
+                      <h3 class="text-white">JVASCRIPT</h3>
+                      <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 25%; height: 4
+                        !important;">25%</div>
+                      </div>
+                    </div>
+
+                    <div class="box">
+                      <h3 class="text-white">JQUERY</h3>
+                      <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 50%; height: 4
+                        !important;">50%</div>
+                      </div>
+                    </div>
+
+                    <div class="box">
+                      <h3 class="text-white">BOOTSTRAP</h3>
+                      <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 70%; height: 4
+                        !important;">25%</div>
+                      </div>
+                    </div>
+
+                    <div class="box">
+                      <h3 class="text-white">HTML</h3>
+                      <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 80%; height: 4
+                        !important;">80%</div>
+                      </div>
+                    </div>
+
+                    <div class="box">
+                      <h3 class="text-white">CSS</h3>
+                      <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 80%; height: 4
+                        !important;">80%</div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--========= about part ends ========== -->
+
+
+        <!--========= counter part start ========== -->
+        <div class="counter-part">
+            <div class="container">
+              <div class="counter-main">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 wow bounceInDown" data-wow-duration="1s">
+                      <div class="count">
+                        <a href="#"><i class="fas fa-code text-white roted"></i></a>
+                        <h3 class="counter text-white btn-bt">2500</h3>
+                    </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow slideInLeft" data-wow-duration="3s" data-wow-iteration="2">
+                      <div class="count">
+                        <a href="#"><i class="fas fa-code text-white roted"></i></a>
+                        <h3 class="counter text-white btn-bt">2500</h3>
+                    </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow slideInRight" data-wow-duration="4s" data-wow-offset="10"  data-wow-iteration="2">
+                      <div class="count">
+                        <a href="#"><i class="fas fa-code text-white roted"></i></a>
+                        <h3 class="counter text-white btn-bt">2500</h3>
+                    </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow bounceInDown" data-wow-duration="6s">
+                      <div class="count">
+                        <a href="#"><i class="fas fa-code text-white roted"></i></a>
+                        <h3 class="counter text-white btn-bt">2500</h3>
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--========= counter part ends ========== -->
+
+
+        <!--========= portfolio part start ========== -->
+        <div class="portfolio-part section" id="portfolio">
+          <h2 class="header wow bounceInRight" data-wow-duration="6s"><span>Best Portfolio</span></h2>
+            <div class="container">
+              <div class="portfolio">
+                <div class="row p-0 m-0">
+                    <div class="wow backInLeft col-lg-4 col-sm-12" data-wow-duration="1s">
+                        <div class="box">
+                          <img src="images/portfolio1.png" alt="">
+                            <div class="box-box">
+                                <h3>Krishna</h3>
+                                  <div class="links">
+                                    <a href="#"><i class="fas fa-code"></i></a>
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wow bounceInUp col-lg-4 col-sm-12" data-wow-duration="3s">
+                      <div class="box">
+                        <img src="images/portfolio2.png" alt="">
+                          <div class="box-box">
+                              <h3>Views</h3>
+                                <div class="links">
+                                  <a href="#"><i class="fas fa-code"></i></a>
+                                  <a href="#"><i class="fas fa-search"></i></a>
+                                </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="wow bounceInRight col-lg-4 col-sm-12"  data-wow-duration="4s">
+                    <div class="box">
+                      <img src="images/portfolio3.png" alt="">
+                        <div class="box-box top">
+                            <h3>portfolio</h3>
+                              <div class="links">
+                                <a href="#"><i class="fas fa-code"></i></a>
+                                <a href="#"><i class="fas fa-search"></i></a>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--========= portfolio part ends ========== -->
+
+        
+
+        <!-- polio section start -->
+      <section class="polio" id="polio">
+        <div class="container">
+            <div class="row p-0 m-0">
+                <div class="section-title col-sm-12">
+                    <h3 class="text-center text-white text-uppercase">Recent Polio</h3>
+                </div>
+                <br><br><br><br>
+                <div class="part col-sm-12">
+                    <div class="polio-nav col-sm-12" id="filter-button">
+                        <ul>
+                            <li data-filter="*" class="current">
+                                <span>All Categories</span>
+                            </li>
+
+                            <li data-filter=".user-interface" class="current">
+                              <span>Web Design</span>
+                            </li>
+
+                            <li data-filter=".branding">
+                              <span>Branding</span>
+                            </li>
+
+                            <li data-filter=".mockup">
+                              <span>Mockups</span>
+                            </li>
+
+                            <li data-filter=".ui">
+                              <span>Photography</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <iframe width="0" height="0" src="https://www.youtube.com/embed/F4CawlaK-ls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <iframe width="0" height="0" src="https://www.youtube.com/embed/F4CawlaK-ls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+                    <iframe width="0" height="0" src="https://www.youtube.com/embed/F4CawlaK-ls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+                    <iframe width="0" height="0" src="https://www.youtube.com/embed/F4CawlaK-ls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+                    <iframe width="0" height="0" src="https://www.youtube.com/embed/F4CawlaK-ls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+                    <iframe width="0" height="0" src="https://www.youtube.com/embed/F4CawlaK-ls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+                    <iframe width="0" height="0" src="https://www.youtube.com/embed/F4CawlaK-ls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+                    <iframe width="0" height="0" src="https://www.youtube.com/embed/F4CawlaK-ls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- polio section ends -->
+
+
+        <!-- ========= service part start ========== -->
+        <div class="service-part" id="service">
+          <h2 class="header pb-4"><span>Service</span></h2>
+            <div class="container">
+                <div class="row p-0 m-0">
+                    <div class="col-md-12">
+                      <div class="carousel-indicators bottom">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"  aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div id="carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="carousel">
+                       
+                        <div class="carousel-inner wow bounceInLeft" data-wow-duration="3s">
+                          <div class="carousel-item active">
+                              <div class="row p-0 m-0">
+                                  <div class="col-md-4 wow rotateInDownLeft" data-wow-duration="3s">
+                                      <div class="box">
+                                        <span class="active"></span>
+                                        <img src="images/team.1png.jpg" alt="">
+                                        <h3>web designer</h3>
+                                        <p class="small ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe incidunt repellendus, sint veritatis modi cum explicabo animi unde fugiat rem?</p>
+                                        <button class="btn mb-4">Hire me</button>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-md-4 wow rotateInDownLeft" data-wow-duration="3s">
+                                    <div class="box">
+                                      <span></span>
+                                      <img src="images/layer5.png" alt="">
+                                      <h3>ui/ux</h3>
+                                      <p class="small ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe incidunt repellendus, sint veritatis modi cum explicabo animi unde fugiat rem?</p>
+                                      <button class="btn mb-4">Hire me</button>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 wow rotateInDownRight" data-wow-duration="3s">
+                                  <div class="box">
+                                    <span></span>
+                                    <img src="images/team2.jpg" alt="">
+                                    <h3>Font-End</h3>
+                                    <p class="small ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe incidunt repellendus, sint veritatis modi cum explicabo animi unde fugiat rem?</p>
+                                    <button class="btn mb-4">Hire me</button>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="row m-0 p-0">
+                                <div class="col-md-4">
+                                  <div class="box bg-1">
+                                    <span class="active"></span>
+                                    <img class="images" src="images/banner2.png" alt="">
+                                    <h3>facebook</h3>
+                                    <p class="small ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe incidunt repellendus, sint veritatis modi cum explicabo animi unde fugiat rem?</p>
+                                    <button class="btn mb-4">Hire me</button>
+                                  </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                  <div class="box bg-1">
+                                    <span></span>
+                                    <img class="images" src="images/banner3.png" alt="">
+                                    <h3>fikma</h3>
+                                    <p class="small ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe incidunt repellendus, sint veritatis modi cum explicabo animi unde fugiat rem?</p>
+                                    <button class="btn mb-4">Hire me</button>
+                                  </div>
+                              </div>
+
+                              <div class="col-md-4">
+                                <div class="box bg-1">
+                                  <span></span>
+                                  <img class="images" src="images/banner4.png" alt="">
+                                  <h3>canva</h3>
+                                  <p class="small ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe incidunt repellendus, sint veritatis modi cum explicabo animi unde fugiat rem?</p>
+                                  <button class="btn mb-4">Hire me</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                          <div class="row p-0 m-0">
+                              <div class="col-md-4">
+                                <div class="box bg-2">
+                                  <span class="active"></span>
+                                  <a href=""><i class="fas fa-code roted"></i></a>
+                                  <h3>ps</h3>
+                                  <p class="small ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe incidunt repellendus, sint veritatis modi cum explicabo animi unde fugiat rem?</p>
+                                  <button class="btn mb-4">Hire me</button>
+                                </div>
+                              </div>
+
+                              <div class="col-md-4">
+                                <div class="box bg-2">
+                                  <span></span>
+                                  <a href=""><i class="fas fa-copyright roted"></i></a>
+                                  <h3>creator</h3>
+                                  <p class="small ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe incidunt repellendus, sint veritatis modi cum explicabo animi unde fugiat rem?</p>
+                                  <button class="btn mb-4">Hire me</button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                              <div class="box bg-2">
+                                <span></span>
+                                <a href=""><i class="fas fa-brands fa-youtube roted"></i></a>
+                                <h3>youtuber</h3>
+                                <p class="small ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe incidunt repellendus, sint veritatis modi cum explicabo animi unde fugiat rem?</p>
+                                <button class="btn mb-4">Hire me</button>
+                              </div>
+                          </div>
+                          </div>
+                      </div>
+                        </div>
+                      
+                      </div>
+                      <button class="carousel-control-prev left" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon left-icon"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next right" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--========= service part ends ========== -->
+
+
+        <!--========= contact part start ========== -->
+        <div class="contact-part" id="contact">
+          <h2 class="header wow bounceInLeft" data-wow-duration="4s"><span>Contact Me</span></h2>
+              <div class="container">
+                <div class="contact">
+                  <div class="row p-0 m-0">
+                      <div class="col-lg-3 col-sm-6 wow bounceInDown" data-wow-duration="1s">
+                          <div class="box">
+                              <i class="ico fas fa-map-marker-alt roted"></i>
+                              <h3 class="btn-bt">Offoce</h3>
+                              <p class="small text-center pt-4 text-white"><i class="fas fa-phone text-danger"></i> <span>+8801797627010</span></p>
+                          </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 wow bounceInDown" data-wow-duration="2s">
+                        <div class="box">
+                            <i class="ico fas fa-envelope roted"></i>
+                            <h3 class="btn-bt">Contact</h3>
+                            <p class="small text-center pt-4 text-white"><i class="fas fa-arrow-right text-danger"></i> <span> kri4@gmail.com</span></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow bounceInDown" data-wow-duration="3s">
+                      <div class="box">
+                          <i class="ico fas fa-globe-europe roted"></i>
+                          <h3 class="btn-bt">Website</h3>
+                          <p class="small text-center pt-4 text-white"><i class="fas fa-arrow-right text-danger"></i> <span> Website.com</span></p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 wow bounceInDown" data-wow-duration="4s">
+                    <div class="box">
+                        <i class="ico fab fa-facebook roted"></i>
+                        <h3 class="btn-bt">facebook</h3>
+                        <p class="small text-center pt-4 text-white"><i class="fas fa-arrow-right text-danger"></i> <span> facebook.com</span></p>
+                    </div>
+                </div>
+                  </div>
+              </div>
+
+                <div class="row pt-5 wow bounceInUp" data-wow-duration="3s">
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="box2">
+                          <h2 class="text-white text-uppercase pb-3">Profile</h2>
+                          <p class="small text-white fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dolorum!</p>
+                          <a href="https://www.facebook.com/krishkrishnasinha" target="_blank"><i class="fab fa-facebook p-1 roted text-white" data-bs-toggle="tooltip" data-bs-placement="left" title="My facebook link"></i></a>
+                          <a href=""><i class="fab fa-twitter roted p-1 text-white"></i></a>
+                          <a href=""><i class="fab fa-instagram roted p-1 text-white"></i></a>
+                          <a href="https://github.com/krishnadesigner" target="_blank"><i class="fa-brands fa-github fab roted p-1 text-white" data-bs-toggle="tooltip" data-bs-placement="right" title="My githup links" data-title="text-warning"></i></a>
+                        </div>
+
+                        <div class="box3">
+                            <a href=""><img src="images/visaa.png" alt=""></a>
+                            <a href=""><img src="images/visaa.png" alt=""></a>
+                            <a href=""><img src="images/visaa.png" alt=""></a>
+                            <a href=""><img src="images/visaa.png" alt=""></a>
+                        </div>
+                    </div>
+                      <div class="col-lg-3 col-sm-12">
+                          <div class="box2">
+                              <h2 class="text-white text-uppercase pb-3">Hire me</h2>
+                              <div class="info">
+                                <div class="icon roted"><i class="fas fa-user fa-1x text-warning roted"></i> <span>Krishnadesigner</span></div>
+                                <div class="icon roted"><i class="fas fa-phone fa-1x text-warning "></i> <span>+8801797627010</span></div>
+                                <div class="icon roted"><i class="fas fa-phone fa-1x text-warning"></i> <span>+8801825004698</span></div>
+                                <div class="icon roted"><i class="fas fa-envelope fa-1x text-warning"></i> <span>krishna108@gmail.com</span></div>
+                                <div class="icon roted"><i class="fas fa-map-marker-alt fa-1x text-warning"></i> <span>Atwari Panchagarh</span></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-12">
+                        <div class="box2">
+                        <h2 class="text-white text-uppercase pb-3">Queck links</h2>
+                        <div class="information">
+                            <div class="information">
+                                <div class="icon"><a href="#"><i class="fas fa-arrow-right text-warning"></i> <span>Home</span></a></div>
+                                <div class="icon"> <a href="#about"><i class="fas fa-arrow-right text-warning"></i> <span>About</span></a></div>
+                                <div class="icon"><a href="#service"><i class="fas fa-arrow-right text-warning"></i> <span>Service</span></a></div>
+                                <div class="icon"><a href="#portfolio"><i class="fas fa-arrow-right text-warning"></i> <span>Portfolio</span></a></div>
+                                <div class="icon"><a href="#contact"><i class="fas fa-arrow-right text-warning"></i> <span>Contact</span></a></div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-sm-12">
+                        <div class="box2">
+                          <h2 class="text-white text-uppercase pb-3">Submit Here</h2>
+                          <form action="" class="form">
+                            <input type="text" placeholder="name" required>
+                            <input type="email" placeholder="email" required>
+                            <input type="password" placeholder="password" required>
+                            <button class="btn p-2">send</button>
+                          </form>
+                        </div>
+                      </div>
+
+                      <div class="copyright">
+                        <p class="text-center pt-4 pb-3 text-white">2022 <i class="fas fa-copyright"></i>All this copyright by krishna chandra sinha</p>
+                    </div>
+                </div>
+              </div>
+        </div>
+        <!--========= contact part ends ========== -->
+        
+        <div class="socal">
+          <div class="fab"><a href="https://www.facebook.com/krishnachandra.sihgha" target="_blank"><i class="fab fa-facebook"></i></a></div>
+          <div class="fab"><a href="#"><i class="fab fa-twitter"></i></a></div>
+          <div class="fab"><a href="#"><i class="fab fa-instagram"></i></a></div>
+          <div class="fab"><a href="#"><i class="fas fa-arrow-up"></i></a></div>
+          <div class="fab"><a href="#footer"><i class="fas fa-arrow-down"></i></a></div>
+         
+        </div>
+
+        
+    </div>
+    <div id="footer"></div>
+
+ 
+    <!-- ============= main-part ends ============ -->
+
+      <!-- ========= jquery counter cdn ======= -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+       <!-- ======= type js cdn ========= -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+
+    <!-- ============ bootstrap 5 js ========== -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <script src="js/wow.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
